@@ -16,4 +16,4 @@ let canasta = ["manzana", "banana", "pera"];
 for (let fruta of canasta) {
   console.log(fruta);
 }
-"pene"
+"turip"
