@@ -1,53 +1,53 @@
-const Edades = prompt("Ingrese la edad");
-for (let i = 1; i <= 5; i++) {
-  let edad = parseInt(prompt("Ingresa la edad #" + i + ":"));
+// const Edades = prompt("Ingrese la edad");
+// for (let i = 1; i <= 5; i++) {
+//   let edad = parseInt(prompt("Ingresa la edad #" + i + ":"));
 
-  if (edad >= 0 && edad <= 11) {
-    console.log("Edad " + edad + ": Niño/a ");
-  } else if (edad >= 12 && edad <= 18) {
-    console.log("Edad " + edad + ": Adolescente ");
-  } else if (edad >= 19 && edad <= 55) {
-    console.log("Edad " + edad + ": Adulto ");
-  } else {
-    console.log("Edad " + edad + ": Fuera de rango ");
-  }
-}
-let canasta = ["manzana", "banana", "pera"];
-for (let fruta of canasta) {
-  console.log(fruta);
-}
-"turip"
+//   if (edad >= 0 && edad <= 11) {
+//     console.log("Edad " + edad + ": Niño/a ");
+//   } else if (edad >= 12 && edad <= 18) {
+//     console.log("Edad " + edad + ": Adolescente ");
+//   } else if (edad >= 19 && edad <= 55) {
+//     console.log("Edad " + edad + ": Adulto ");
+//   } else {
+//     console.log("Edad " + edad + ": Fuera de rango ");
+//   }
+// }
+// let canasta = ["manzana", "banana", "pera"];
+// for (let fruta of canasta) {
+//   console.log(fruta);
+// }
+// "turip"
 
-class Animal {
-  constructor(nombre, tipo) {
-    this.nombre = nombre;
-    this.tipo = tipo;
-  }
-  emitirSonido() {
-    console.log("El " + this.tipo + " llamado " + this.nombre + " hace un sonido.");
-  }
-}
-class Perro extends Animal {
-  constructor(nombre, tipo, raza) {
-    super(nombre, tipo);
-    this.raza = raza;
-  }
-  emitirSonido() {
-    console.log("El perro ladra.");
-  }
-  correr() {
-    console.log(`${this.nombre} corre alegremente.`);
-  }
-}
-const perro1 = new Perro("Buddy", "perro", "pug");
+// class Animal {
+//   constructor(nombre, tipo) {
+//     this.nombre = nombre;
+//     this.tipo = tipo;
+//   }
+//   emitirSonido() {
+//     console.log("El " + this.tipo + " llamado " + this.nombre + " hace un sonido.");
+//   }
+// }
+// class Perro extends Animal {
+//   constructor(nombre, tipo, raza) {
+//     super(nombre, tipo);
+//     this.raza = raza;
+//   }
+//   emitirSonido() {
+//     console.log("El perro ladra.");
+//   }
+//   correr() {
+//     console.log(`${this.nombre} corre alegremente.`);
+//   }
+// }
+// const perro1 = new Perro("Buddy", "perro", "pug");
 
-console.log(perro1);
-perro1.correr();
-perro1.emitirSonido();
+// console.log(perro1);
+// perro1.correr();
+// perro1.emitirSonido();
 
-perro1.nuevoMetodo = function () {
-  console.log("Este es un nuevo método.");
-};
-perro1.prototype.segundoMetodo = function () {
-  console.log("Este es un segundo método.");
-};
+// perro1.nuevoMetodo = function () {
+//   console.log("Este es un nuevo método.");
+// };
+// perro1.prototype.segundoMetodo = function () {
+//   console.log("Este es un segundo método.");
+// };
